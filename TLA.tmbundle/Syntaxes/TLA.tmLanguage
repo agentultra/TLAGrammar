@@ -43,14 +43,6 @@
 			<string>constant.numeric</string>
 		</dict>
 		<dict>
-			<key>include</key>
-			<string>#reserved-words</string>
-			<key>match</key>
-			<string>[a-zA-Z0-9_]+</string>
-			<key>name</key>
-			<string>entity.name.type</string>
-		</dict>
-		<dict>
 			<key>match</key>
 			<string>\b==\b</string>
 			<key>name</key>
@@ -94,7 +86,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(\[\])</string>
+			<string>(\[\]|\&lt;\&gt;)</string>
 			<key>name</key>
 			<string>keyword.operator.temporal.tla</string>
 		</dict>
