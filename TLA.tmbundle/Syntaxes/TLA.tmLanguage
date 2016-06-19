@@ -66,6 +66,12 @@
 			<key>name</key>
 			<string>keyword.operator.logic.tla</string>
 		</dict>
+        <dict>
+			<key>match</key>
+			<string>(\\EE|\\AA)</string>
+			<key>name</key>
+			<string>keyword.operator.temporal.quantification.tla</string>
+		</dict>
 		<dict>
 			<key>match</key>
 			<string>(\\E|\\A)</string>
