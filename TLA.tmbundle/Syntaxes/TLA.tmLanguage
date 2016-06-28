@@ -98,7 +98,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(\[\]|\&lt;\&gt;)</string>
+			<string>(\[\]|\&lt;\&gt;|\-\+\-&gt;)</string>
 			<key>name</key>
 			<string>keyword.operator.temporal.tla</string>
 		</dict>
