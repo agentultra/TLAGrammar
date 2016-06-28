@@ -84,6 +84,12 @@
 			<key>name</key>
 			<string>keyword.operator.sets.tla</string>
 		</dict>
+		<dict>
+			<key>match</key>
+			<string>(\|\-&gt;|\-&gt;)</string>
+			<key>name</key>
+			<string>keyword.operator.functions.tla</string>
+		</dict>
         <dict>
 			<key>match</key>
 			<string>\\(approx|asymp|bigcirc|bullet|cap|cdot|circ|cong|cup|div|doteq|equiv|geq|gg|in|intersect|land|leq|ll|lor|o|odot|ominus|oplus|oslash|otimes|prec|preceq|propto|sim|simeq|sqcap|sqcup|sqsubset|sqsubseteq|sqsupset|sqsupseteq|star|subset|subseteq|succ|succeq|supset|supseteq|union|uplus|wr)\b</string>
