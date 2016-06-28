@@ -62,7 +62,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(\/\\|\\\/|\=&gt;|&lt;\=&gt;|~)</string>
+			<string>(\/\\|\\\/|\=&gt;|&lt;\=&gt;|\|\=|\=\||\|\-|\-\||~)</string>
 			<key>name</key>
 			<string>keyword.operator.logic.tla</string>
 		</dict>
