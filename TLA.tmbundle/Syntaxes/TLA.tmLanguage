@@ -50,9 +50,9 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b=\b</string>
+			<string>(\/\\|\\\/|\=&gt;|&lt;\=&gt;|\|\=|\=\||\|\-|\-\||~)</string>
 			<key>name</key>
-			<string>keyword.operator.assignment.tla</string>
+			<string>keyword.operator.logic.tla</string>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -62,9 +62,15 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(\/\\|\\\/|\=&gt;|&lt;\=&gt;|~)</string>
+			<string>\b=\b</string>
 			<key>name</key>
-			<string>keyword.operator.logic.tla</string>
+			<string>keyword.operator.assignment.tla</string>
+		</dict>
+        <dict>
+			<key>match</key>
+			<string>(\\EE|\\AA)</string>
+			<key>name</key>
+			<string>keyword.operator.temporal.quantification.tla</string>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -74,9 +80,21 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(\\in|\\notin|:)</string>
+			<string>(\\notin|:)</string>
 			<key>name</key>
 			<string>keyword.operator.sets.tla</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(\|\-&gt;|\-&gt;)</string>
+			<key>name</key>
+			<string>keyword.operator.functions.tla</string>
+		</dict>
+        <dict>
+			<key>match</key>
+			<string>\\(approx|asymp|bigcirc|bullet|cap|cdot|circ|cong|cup|div|doteq|equiv|geq|gg|in|intersect|land|leq|ll|lor|o|odot|ominus|oplus|oslash|otimes|prec|preceq|propto|sim|simeq|sqcap|sqcup|sqsubset|sqsubseteq|sqsupset|sqsupseteq|star|subset|subseteq|succ|succeq|supset|supseteq|union|uplus|wr)\b</string>
+			<key>name</key>
+			<string>keyword.operator.latex.tla</string>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -86,7 +104,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(\[\]|\&lt;\&gt;)</string>
+			<string>(\[\]|\&lt;\&gt;|\-\+\-&gt;)</string>
 			<key>name</key>
 			<string>keyword.operator.temporal.tla</string>
 		</dict>
