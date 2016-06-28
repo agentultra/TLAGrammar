@@ -50,9 +50,9 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b=\b</string>
+			<string>(\/\\|\\\/|\=&gt;|&lt;\=&gt;|\|\=|\=\||\|\-|\-\||~)</string>
 			<key>name</key>
-			<string>keyword.operator.assignment.tla</string>
+			<string>keyword.operator.logic.tla</string>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -62,9 +62,9 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(\/\\|\\\/|\=&gt;|&lt;\=&gt;|\|\=|\=\||\|\-|\-\||~)</string>
+			<string>\b=\b</string>
 			<key>name</key>
-			<string>keyword.operator.logic.tla</string>
+			<string>keyword.operator.assignment.tla</string>
 		</dict>
         <dict>
 			<key>match</key>
