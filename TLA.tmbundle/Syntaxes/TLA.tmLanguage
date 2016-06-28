@@ -80,7 +80,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(\\in|\\notin|:)</string>
+			<string>(\\notin|:)</string>
 			<key>name</key>
 			<string>keyword.operator.sets.tla</string>
 		</dict>
