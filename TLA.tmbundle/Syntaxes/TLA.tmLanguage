@@ -26,13 +26,13 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\={4,}</string>
+			<string>\={4}=*</string>
 			<key>name</key>
 			<string>markup.other.startbreak</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>={4,}</string>
+			<string>={4}=*</string>
 			<key>name</key>
 			<string>markup.other.endbreak</string>
 		</dict>
