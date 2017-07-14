@@ -42,6 +42,12 @@
 			<key>name</key>
 			<string>constant.numeric</string>
 		</dict>
+        <dict>
+            <key>match</key>
+            <string>\b(BOOLEAN|FALSE|STRING|TRUE)\b</string>
+            <key>name</key>
+            <string>constant.language.tla</string>
+        </dict>
 		<dict>
 			<key>match</key>
 			<string>\b==\b</string>
